@@ -1,0 +1,48 @@
+.navbar__wrapper {
+    background-color: #13005A;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menuLink.active {
+    border-bottom: 2px solid whitesmoke;
+    transform: scale(1.5);
+}
+
+.menuLink.btn {
+    color: black;
+    font-size: 16px;
+    padding: 0rem 0.4rem;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    text-decoration: none;
+}
+
+.navbar__logoText {
+    color: whitesmoke;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.navbar__logoImg {
+    width: 2.2rem;
+}
